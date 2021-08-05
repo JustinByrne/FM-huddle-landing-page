@@ -13,6 +13,10 @@ module.exports = {
       fontFamily: {
         poppins: 'Poppins, sans-serif',
         openSans: 'Open Sans, sans-serif',
+      },
+      backgroundImage: {
+        mobile: "url('./images/bg-mobile.svg')",
+        desktop: "url('./images/bg-desktop.svg')",
       }
     },
   },
