@@ -10,6 +10,7 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I Learned](#what-i-learned)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -44,6 +45,16 @@ Users should be able to:
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework
 - [Browser-Sync](https://browsersync.io/) - Browser Hot Reload
 
+### What I learned
+
+One of the things that I learnt and will take with me is the ability to extend the `backgroundImage` theme config and add in background images.
+
+```js
+backgroundImage: {
+    mobile: "url('./images/bg-mobile.svg')",
+    desktop: "url('./images/bg-desktop.svg')",
+  }
+```
 
 ## Author
 
