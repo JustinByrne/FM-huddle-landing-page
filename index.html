@@ -6,15 +6,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
         <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
         <link href="./tailwind.css" rel="stylesheet">
     </head>
     
-    <body>
-        Build The Community Your Fans Will Love
-
-        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-        Create connections with your users as you engage in genuine discussion. 
-
-        Register
+    <body class="bg-violet">
+        <div class="px-9 lg:px-16 bg-mobile lg:bg-desktop bg-no-repeat bg-contain lg:h-screen">
+            <header class="pt-8 pb-16">
+                <img class="h-8" src="./images/logo.svg">
+            </header>
+            <main class="text-center grid grid-cols-1 lg:grid-cols-2 gap-16 pb-8">
+                <div>
+                    <img src="./images/illustration-mockups.svg">
+                </div>
+                <div>
+                    <h1 class="font-poppins text-2xl text-white font-bold pb-6 leading-relaxed">
+                        Build The Community Your Fans Will Love
+                    </h1>
+                    <p class="font-poppins text-white text-[0.93rem] pb-8 leading-relaxed">
+                        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+                        Create connections with your users as you engage in genuine discussion. 
+                    </p>
+                    <button class="font-poppins bg-white hover:bg-magenta text-violet hover:text-white text-sm px-24 py-3 rounded-full shadow-lg">
+                        Register
+                    </button>
+                </div>
+            </main>
+            <footer class="flex space-x-3 justify-center lg:justify-end lg:text-xl">
+                <div class="text-white hover:text-magenta border border-white hover:border-magenta rounded-full w-8 h-8 lg:w-10 lg:h-10 flex justify-center items-center cursor-pointer">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="text-white hover:text-magenta border border-white hover:border-magenta rounded-full w-8 h-8 lg:w-10 lg:h-10 flex justify-center items-center cursor-pointer">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="text-white hover:text-magenta border border-white hover:border-magenta rounded-full w-8 h-8 lg:w-10 lg:h-10 flex justify-center items-center cursor-pointer">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
